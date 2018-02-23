@@ -6,7 +6,7 @@
     "A tool-bar plugin that adds an atom toolbar with many commonly used actions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeselxe/tool-bar-atom.git"
+    "url": "git+https://github.com/anpleenko/frontend-tool-bar.git"
   },
   "license": "MIT",
   "engines": {
