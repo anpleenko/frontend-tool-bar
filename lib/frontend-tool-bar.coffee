@@ -5,6 +5,12 @@ module.exports =
   consumeToolBar: (toolBar) ->
     @toolBar = toolBar 'frontend-tool-bar'
 
+    @toolBar.addButton
+      'icon': 'tab'
+      'tooltip': 'List projects'
+      'callback': 'pane:close-other-items'
+      'iconset': 'mdi'
+
     if atom.packages.loadedPackages['project-manager']
       @toolBar.addButton
         'icon': 'file-submodule'
