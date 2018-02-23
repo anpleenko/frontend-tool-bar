@@ -1,0 +1,29 @@
+{
+  "name": "frontend-tool-bar",
+  "main": "./lib/frontend-tool-bar",
+  "version": "0.0.1",
+  "description":
+    "A tool-bar plugin that adds an atom toolbar with many commonly used actions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeselxe/tool-bar-atom.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "keywords": ["toolbar", "tool-bar"],
+  "dependencies": {},
+  "packageDependencies": {
+    "tool-bar": "^0.1.0",
+    "project-manager": "^3.3.5",
+    "prettier-atom": "^0.51.0"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  }
+}
