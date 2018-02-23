@@ -1,9 +1,8 @@
 {
   "name": "frontend-tool-bar",
   "main": "./lib/frontend-tool-bar",
-  "version": "0.0.1",
-  "description":
-    "A tool-bar plugin that adds an atom toolbar with many commonly used actions",
+  "version": "0.0.2",
+  "description": "A tool-bar plugin that adds an atom toolbar with many commonly used actions",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anpleenko/frontend-tool-bar.git"
@@ -12,7 +11,10 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "keywords": ["toolbar", "tool-bar"],
+  "keywords": [
+    "toolbar",
+    "tool-bar"
+  ],
   "dependencies": {},
   "packageDependencies": {
     "tool-bar": "^0.1.0",
