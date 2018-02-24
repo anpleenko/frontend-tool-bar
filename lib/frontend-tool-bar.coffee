@@ -19,7 +19,7 @@ module.exports =
 
     if atom.packages.loadedPackages['prettier-atom']
       @toolBar.addButton
-        'icon': 'currency-rub'
+        'icon': 'auto-fix'
         'tooltip': 'Go prettier'
         'callback': 'prettier:format'
         'iconset': 'mdi'
@@ -33,7 +33,7 @@ module.exports =
       @toolBar.addButton
         'icon' : 'source-branch'
         'callback' : 'git-plus:new-branch'
-        'tooltip' : 'New branch '
+        'tooltip' : 'Checkout new branch '
         'iconset' : 'mdi'
       @toolBar.addButton
         'icon' : 'inbox-arrow-down'
