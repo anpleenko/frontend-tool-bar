@@ -26,10 +26,15 @@ module.exports =
 
     if atom.packages.loadedPackages['git-plus']
       @toolBar.addButton
-        'icon' : 'git-plain'
+        'icon' : 'git'
         'callback' : 'git-plus:menu'
         'tooltip' : 'Git plus'
-        'iconset' : 'devicon'
+        'iconset' : 'mdi'
+      @toolBar.addButton
+        'icon' : 'source-branch'
+        'callback' : 'git-plus:new-branch'
+        'tooltip' : 'New branch '
+        'iconset' : 'mdi'
       @toolBar.addButton
         'icon' : 'inbox-arrow-down'
         'callback' : 'git-plus:stash-save'
